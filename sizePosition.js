@@ -6,7 +6,6 @@
 */
 
 (function($){
-
     $.fn.posCustom = function(settings){
         var config = $.extend({
             hAddition: 0,
@@ -35,8 +34,7 @@
         var hPos;
         var vPos;
 
-        // Needs to take into account padding
-
+        // Takes padding into account
         var hPadding = parseInt(this.css('padding-left')) + parseInt(this.css('padding-right'));
         var vPadding = parseInt(this.css('padding-top')) + parseInt(this.css('padding-bottom'));
         
@@ -181,7 +179,6 @@
        		});
        	});
     };
-        
 })(jQuery);
 
 var Win = {//this object is used for saving the window height and width
