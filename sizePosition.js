@@ -14,8 +14,6 @@
             vSubtract: 0
         }, settings);
         
-        //add code here for other bounding boxes
-        
         var boxWidth;
         var boxHeight;
         
